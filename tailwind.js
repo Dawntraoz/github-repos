@@ -6,7 +6,7 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: ["./src/**/*.vue"],
   theme: {
     extend: {
       screens: {

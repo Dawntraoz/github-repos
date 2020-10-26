@@ -1,5 +1,7 @@
 # github-repos
 
+Demo: https://dawntraoz.github.io/github-repos/
+
 ## Project setup
 ```
 yarn install

@@ -26,10 +26,12 @@ import GithubReposItem from "./GithubReposItem.vue";
 
 export default {
   name: "GithubRepos",
-  data: () => ({
-    repos: undefined,
-    colors: {}
-  }),
+  data() {
+    return {
+      repos: [],
+      colors: {}
+    };
+  },
   methods: {
     getColors() {
       axios
@@ -49,8 +51,8 @@ export default {
       });
     }
   },
-  mounted() {
-    this.getColors();
+  async mounted() {
+    await this.getColors();
     this.getRepos();
   },
   components: {

@@ -1,6 +1,7 @@
 # github-repos
 
 Demo: https://dawntraoz.github.io/github-repos/
+Tech Stack: https://tailwindcss.com/, https://v3.vuejs.org/guide/introduction.html, https://github.com/axios/axios, https://github.com/ChanceArthur/tailwindcss-dark-mode
 
 ## Project setup
 ```
